@@ -20,7 +20,7 @@ Converting wsdl2java
   </dl>
  
 
-- For execute this you can add to your project's pom.xml build and properties. After that at console(terminal or command promt) you can run this maven project with this example.
+- For execute this you can add to your project's pom.xml build and properties. After that at console(terminal or command promt) you can run this maven project with this command.
   
 ```
 
