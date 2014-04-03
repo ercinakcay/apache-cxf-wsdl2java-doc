@@ -14,7 +14,11 @@ Converting wsdl2java
 
 - With this pom you can generate java client service code from WSDL.
 
-- "wsdlPath" is the property of WSDL location which can be online or local source.
+- <dl>
+    <dt>wsdlPath</dt>
+    <dd>Is the property of WSDL location which can be online or local source.</dd>
+  </dl>
+ 
 
 - For execute this you can add to your project's pom.xml build and properties. After that at console(terminal or command promt) you can run this maven project with this example.
   
