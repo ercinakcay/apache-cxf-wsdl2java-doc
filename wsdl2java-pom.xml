@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ea.maven.cmd</groupId>
+	<artifactId>maven-cmd-generator</artifactId>
+	<version>1.0</version>
+	<name>GeneratorFromCmd</name>
+
+	<properties>
+		<cxf.version>3.0.0-milestone1</cxf.version>
+		<outputPath>src/main/java</outputPath>
+		<wsdlPath>http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL</wsdlPath>
+	</properties>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-codegen-plugin</artifactId>
+				<version>${cxf.version}</version>
+				<executions>
+					<execution>
+						<id>generate-sources</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>wsdl2java</goal>
+						</goals>
+						<configuration>
+							<sourceRoot>${outputPath}</sourceRoot>
+							<wsdlOptions>
+								<wsdlOption>
+									<wsdl>${wsdlPath}</wsdl>
+									<extraargs>
+										<extraarg>-client</extraarg>
+									</extraargs>
+								</wsdlOption>
+							</wsdlOptions>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+
+</project>
