@@ -1,7 +1,7 @@
 <properties>
 	<cxf.version>3.0.0-milestone1</cxf.version>
 	<outputPath>src/main/java</outputPath>
-	<wsdlPath>http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL</wsdlPath>
+	<cmd.wsdlPath>${wsdlPath}</cmd.wsdlPath>
 </properties>
 
 <build>
@@ -21,7 +21,7 @@
 						<sourceRoot>${outputPath}</sourceRoot>
 						<wsdlOptions>
 							<wsdlOption>
-								<wsdl>${wsdlPath}</wsdl>
+								<wsdl>${cmd.wsdlPath}</wsdl>
 								<extraargs>
 									<extraarg>-client</extraarg>
 								</extraargs>
