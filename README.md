@@ -18,6 +18,9 @@ Converting wsdl2java
 
 - For execute this you can add to your project's pom.xml build and properties. After that at console(terminal or command promt) you can run this maven project with this example.
   
-  - $ mvn clean install -DwsdlPath=http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL
+```
 
+   $ mvn clean install -DwsdlPath=http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL
+ 
+```
 - Apache CFX used for this operation. If you need more options as changing service name, generate server side of it or more.. You can visit apache cfx wsdl2java docs -> https://cxf.apache.org/docs/wsdl-to-java.html
