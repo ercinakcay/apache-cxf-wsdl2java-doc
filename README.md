@@ -3,8 +3,8 @@ maven
 
 This repository is including maven components and workouts. Especially pom.xml and dependencies.
 
-Contents
-========
+Content
+=======
 
 
 Converting wsdl2java
