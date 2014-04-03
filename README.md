@@ -10,7 +10,7 @@ Contents
 Converting wsdl2java
 --------------------
 
-- You can find this example as wsdl2java-pom.xml
+- You can find this example as [wsdl2java-pom.xml](https://github.com/ercinakcay/maven/blob/master/wsdl2java-pom.xml)
 
 - With this pom you can generate java client service code from WSDL.
 
@@ -23,4 +23,4 @@ Converting wsdl2java
    $ mvn clean install -DwsdlPath=http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL
  
 ```
-- Apache CFX used for this operation. If you need more options as changing service name, generate server side of it or more.. You can visit apache cfx wsdl2java docs -> https://cxf.apache.org/docs/wsdl-to-java.html
+- Apache CFX used for this operation. If you need more options as changing service name, generate server side of it or more.. You can visit [apache cfx wsdl2java docs](https://cxf.apache.org/docs/wsdl-to-java.html).
