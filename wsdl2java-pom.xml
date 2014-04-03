@@ -1,4 +1,3 @@
-```xml
 <properties>
 	<cxf.version>3.0.0-milestone1</cxf.version>
 	<outputPath>src/main/java</outputPath>
@@ -34,4 +33,4 @@
 		</plugin>
 	</plugins>
 </build>
-```
+
