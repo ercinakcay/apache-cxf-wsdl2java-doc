@@ -1,7 +1,7 @@
-maven
+Apache CFX - wsdl2java
 =====
 
-This repository is including maven components and workouts. Especially pom.xml and dependencies.
+This repository is showing simple usage of Apache CFX - wsdl2java components and workouts.
 
 Content
 =======
